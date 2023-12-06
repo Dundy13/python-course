@@ -20,13 +20,3 @@ dictionary = {
 list_of_the_values = list(dictionary.values())
 print(list_of_the_values)
 
-
-dictionary = {
-    'Novel': 'The book Thief',
-    'Year': '2006',
-    'Author': 'Markus Zusak',
-    'Character': 'Liesel Meminger'
-}
-
-for values in dictionary.values:
-    [print(values) for values in dictionary.values()]
